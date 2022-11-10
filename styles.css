@@ -1,0 +1,46 @@
+:root {
+  --blue-primary: #053973;
+  --complementary: #734005;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  background-color: #888;
+  color: var(--blue-primary);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  z-index: 1;
+}
+
+#header-img {
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+
+#title-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: #aaa;
+  color: var(--complementary);
+}
+
+main {
+  position: relative;
+  top: 220px;
+}
+
+iframe {
+  width: 400px;
+  height: 225px;
+}
