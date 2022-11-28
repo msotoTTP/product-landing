@@ -1,20 +1,57 @@
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 <header id="header">
-  <div id="title-logo">
-    <i id="header-img" class="fa-calculator fa fa-3x"></i>
+  <div id="title-icon">
+    <i id="header-img" class="fa fa-calculator fa-3x"></i>
     <h1>Maso Calculators</h1>
   </div>
   <nav id="nav-bar">
-    <a href="#header" class="nav-link">1</a>
-    <a href="#header" class="nav-link">2</a>
-    <a href="#header" class="nav-link">3</a>
+    <a href="#features" class="nav-link">Features</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#walkthrough" class="nav-link">Walkthrough</a>
   </nav>
 </header>
 <main id="main">
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input type="email" id="email" name="email" placeholder="Email" required>
-    <input type="submit" id="submit">
-  </form>
-  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/eaJtjJNrWf0" title="Calculator Unboxing #1 - Numberphile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <section id="features">
+    <h2 id="features-title">Why use our products?</h2>
+    <p>
+      Our calculators are the best in the business. For all your number-crunching needs, Maso calculators are the way to go.
+    </p>
+    <div class="feature">
+      <i class="fa fa-divide"></i>
+      <p>We divide the price of our competitors</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-times"></i>
+      <p>We multiply the features</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-minus"></i>
+      <p>We subtract the delivery time</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-plus"></i>
+      <p>You add a world-class calculator to your inventory</p>
+    </div>
+  </section>
+  <div id="contact-and-walkthrough">
+    <section id="contact">
+      <h2 id="contact-title">Contact</h2>
+      <p>For any business inquiries, provide your contact information below and we will get back to you as soon as possible.</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="submit" id="submit">
+      </form>
+    </section>
+    <section id="walkthrough">
+      <h2 id="walkthrough-title">Walkthrough</h2>
+      <p>You can see our calculators in action in the video below:</p>
+      <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/eaJtjJNrWf0" title="Calculator Unboxing #1 - Numberphile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </div>
 </main>
